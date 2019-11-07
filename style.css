@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: papayawhip;
+}
+.grid-container {
+  display: grid;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  background-color: rgb(36, 138, 121);
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(221, 233, 223);
+}
+h1 {
+  color: aliceblue;
+}
+nav {
+  color: antiquewhite;
+
+  background-color: rgb(50, 165, 58);
+
+  align-self: center;
+  top: 50%;
+  left: 50%;
+  /* only for demonstration, should be removed */
+
+  padding: 20px;
+}
+button {
+  column-gap: 40px;
+  column-count: 3;
+  column-fill: auto;
+  background-color: rgb(91, 145, 55);
+  border: none;
+  color: rgb(64, 101, 133);
+  padding: 75px 89px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 16px 20px;
+  cursor: pointer;
+}
+div {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+}
+h2 {
+  color: antiquewhite;
+}
